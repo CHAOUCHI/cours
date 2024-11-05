@@ -31,7 +31,8 @@ systemd
 apache2
 mysqld
 
-systemd--handle-->apache2
-systemd--handle-->mysqld
+systemd--->apache2
+systemd--->mysqld
+systemd--->kdeplasma
 
 ```
